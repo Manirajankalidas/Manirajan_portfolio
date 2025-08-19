@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manirajan Kalidas - Personal Website</title>
+    <meta name="description" content="Personal website of Manirajan Kalidas">
+    <link rel="stylesheet" href="styles.css?v=7">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">MK</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hello, This is Manirajan Kalidas
+                </h1>                
+                <p class="hero-subtitle">
+                    Data Analytics Postgraduate | Computer Vision Specialist | AI/ML Engineer<br>
+                    Passionate about real-time computer vision applications and industrial AI solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-placeholder">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        Welcome to my personal space on the web! I'm a <strong>Data Analytics postgraduate (MSc DataAnalytics)</strong> 
+                        with a solid foundation in data analysis, deep learning, and programming. I specialize in 
+                        <strong>computer vision applications</strong> and have a growing focus on automation, AI/ML, and data science.
+                    </p>
+                    <p class="about-description">
+                        With <strong>15 months of startup experience</strong>, I've worked on real-world applications including 
+                        multi-camera monitoring solutions, industrial safety systems, and accessibility projects. 
+                        I'm passionate about <strong>real-time computer vision</strong> using RTSP camera feeds, YOLO object detection, 
+                        and creating Python-based dashboards that solve meaningful problems.
+                    </p>
+                    <p class="about-description">
+                        Currently, I'm working on an <strong>AI-powered industrial safety monitoring project</strong> 
+                        involving 50+ camera streams and developing a <strong>currency identification app for the visually impaired</strong> 
+                        as a volunteer initiative. I also contribute as a content writer for the LeastSquares community.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>15+</h3>
+                            <p>Months Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Camera Streams</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>CV Use Cases</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-placeholder">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Mew Technology</h2>
+            <p class="experience-intro">Application Engineer | 1.3 Years | Bangalore-based Startup<br>
+            <em>Industrial Automation & Student Development Programs</em></p>
+            
+            <div class="experience-grid">
+                <!-- Projects -->
+                <div class="experience-card" data-category="projects">
+                    <div class="experience-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Projects</h3>
+                    <p class="card-description">Designed and developed 4+ innovative POC and prototype solutions involving hardware, software, and AI integration.</p>
+                    <button class="view-details-btn" onclick="toggleDetails('projects')">View Details</button>
+                    <div class="experience-details" style="display: none;">
+                        <h2>Projects</h2>
+                        <hr>
+                        <ol class="simple-list">
+                            <li>Face Recognition based Attendance system using Raspberry Pi - POC</li>
+                            <li>Python Based Application for Hardware testing and Proto-type</li>
+                            <li>IR camera based Virtual graffiti - POC</li>
+                            <li>Nextion Display User GUI application - Proto-type</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- Content Creator & Speaker -->
+                <div class="experience-card" data-category="content">
+                    <div class="experience-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Content Creator & Speaker</h3>
+                    <p class="card-description">Created AI/IoT training materials and delivered hands-on workshops for engineering students and faculty across multiple colleges.</p>
+                    <button class="view-details-btn" onclick="toggleDetails('content')">View Details</button>
+                    <div class="experience-details" style="display: none;">
+                        <h2>Content Creator & Speaker</h2>
+                        <hr>
+                        <ol class="simple-list">
+                            <li>AI & Deep Learning Training Content Development</li>
+                            <li>IoT Workshop Facilitation for Engineering Students</li>
+                            <li>Student Development Programs Design and Delivery</li>
+                            <li>Technical Content Creation and Documentation</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- Moko - Product Support -->
+                <div class="experience-card" data-category="moko">
+                    <div class="experience-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Moko - Product Support</h3>
+                    <p class="card-description">Provided international product testing and prototype development support for Australia-based company's electronic measurement systems.</p>
+                    <button class="view-details-btn" onclick="toggleDetails('moko')">View Details</button>
+                    <div class="experience-details" style="display: none;">
+                        <h2>Moko - Product Support</h2>
+                        <hr>
+                        <ol class="simple-list">
+                            <li>Spectrum Analyzer - Product testing and prototype development (Australia)</li>
+                            <li>JFET Characteristics Measurement - Testing and validation systems</li>
+                            <li>Wide Band Analyzer - Development and frequency range testing</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- Expo - Experience -->
+                <div class="experience-card" data-category="expo">
+                    <div class="experience-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Expo - Experience</h3>
+                    <p class="card-description">Represented company at 3+ national and international exhibitions, demonstrating products and building industry connections.</p>
+                    <button class="view-details-btn" onclick="toggleDetails('expo')">View Details</button>
+                    <div class="experience-details" style="display: none;">
+                        <h2>Expo - Experience</h2>
+                        <hr>
+                        <ol class="simple-list">
+                            <li>SmartBharat Expo 2024 - Product demonstration and industry networking</li>
+                            <li>
+                                <div class="expo-item">
+                                    <span class="expo-title">Electronica India & Productronica India 2023 - Electronics showcase</span>
+                                    <a href="https://www.linkedin.com/posts/manirajan-k_electronicaindia2023-lasercuttingmachine-activity-7108036713612013568-Kbia?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD4f9DgBC2pATSwQGsMaKS8IQhTAPBf7mvY" 
+                                       target="_blank" 
+                                       class="linkedin-post-link" 
+                                       title="View my LinkedIn post about Electronica India 2023">
+                                        <i class="fab fa-linkedin"></i> View LinkedIn Post
+                                    </a>
+                                </div>
+                            </li>
+                            <li>IISc Bangalore Roadshow 2023 - Academic community presentation</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- Hardware - Handson -->
+                <div class="experience-card" data-category="hardware">
+                    <div class="experience-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Hardware - Handson</h3>
+                    <p class="card-description">Extensive hands-on experience with microcontrollers, communication protocols, and sensor integration for industrial applications.</p>
+                    <button class="view-details-btn" onclick="toggleDetails('hardware')">View Details</button>
+                    <div class="experience-details" style="display: none;">
+                        <h2>Hardware - Handson</h2>
+                        <hr>
+                        <ol class="simple-list">
+                            <li>Arduino and ESP32 Microcontroller Development with UART</li>
+                            <li>Communication Protocols - UART, Bluetooth, and I²C implementation</li>
+                            <li>LCD Display and Socket-based Text Messaging Systems</li>
+                            <li>Raspberry Pi Camera Integration and Computer Vision Applications</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- R&D - Project -->
+                <div class="experience-card" data-category="rnd">
+                    <div class="experience-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>R&D - Project</h3>
+                    <p class="card-description">Assisted in advanced research projects including satellite-based image registration and industrial-grade sensor applications.</p>
+                    <button class="view-details-btn" onclick="toggleDetails('rnd')">View Details</button>
+                    <div class="experience-details" style="display: none;">
+                        <h2>R&D - Project</h2>
+                        <hr>
+                        <ol class="simple-list">
+                            <li>Satellite-Based Image Registration - Geospatial applications research</li>
+                            <li>Student Research Project Assistance - Technical mentoring and guidance</li>
+                            <li>Industrial-Grade Sensor Applications - Real-world reliability and compliance</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Data Analytics & ML</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">EDA</span>
+                        <span class="skill-tag">Data Science</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Computer Vision</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">OpenCV</span>
+                        <span class="skill-tag">YOLO</span>
+                        <span class="skill-tag">RTSP Streams</span>
+                        <span class="skill-tag">Object Detection</span>
+                        <span class="skill-tag">FFmpeg</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Development & Hardware</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Python-Tkinter</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Raspberry Pi</span>
+                        <span class="skill-tag">Nvidia Jetson</span>
+                        <span class="skill-tag">Sensor Integration</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Industrial Safety Monitoring System</h3>
+                        <p>AI-powered safety monitoring solution with 50+ camera streams, featuring PPE violation detection, zone-based movement tracking, and real-time alerts across 40+ cameras with 10+ use cases.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>YOLO</span>
+                            <span>OpenCV</span>
+                            <span>RTSP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#contact" class="project-link">
+                                <i class="fas fa-info-circle"></i> Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-user-check"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Face Recognition Attendance System</h3>
+                        <p>MSc DataAnalytics postgraduate project featuring real-time face recognition for automated attendance tracking with high accuracy and user-friendly interface.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>Deep Learning</span>
+                            <span>Face Recognition</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#contact" class="project-link">
+                                <i class="fas fa-info-circle"></i> Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Currency Identification App</h3>
+                        <p>Volunteer-based accessibility project using vision-based approach to help visually impaired individuals identify currency denominations through computer vision and audio feedback.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Computer Vision</span>
+                            <span>Accessibility</span>
+                            <span>Audio Processing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#contact" class="project-link">
+                                <i class="fas fa-heart"></i> Volunteer Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in new opportunities and collaborations. Feel free to reach out!</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>manirajan@example.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 12345 67890</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Manirajan Kalidas. All rights reserved.</p>
+                <!-- <p>Built with ❤️ and modern web technologies</p> -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Experience Detail Modal -->
+    <div id="experienceModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Experience Details</h2>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Content will be dynamically loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js?v=5"></script>
+</body>
+</html>
