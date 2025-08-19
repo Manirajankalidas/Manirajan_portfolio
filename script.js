@@ -653,3 +653,64 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+// ================= ALL EVENT SESSIONS =================
+const allEvents = [
+    {
+      title: "Electronica India 2023",
+      description: "Represented Mew Technology showcasing innovative solutions in electronics and IoT.",
+      image: "images/expo/electronica-india-2023_2.jpeg",
+      link: "https://www.linkedin.com/in/your-profile"
+    },
+    {
+      title: "IISc Roadshow 2023",
+      description: "Participated in IISc Bangalore roadshow presenting research & development projects.",
+      image: "images/expo/iisc-roadshow-2023.jpeg",
+      link: "https://www.linkedin.com/in/your-profile"
+    },
+    {
+      title: "Smart Bharat 2024",
+      description: "Shared insights on smart technology adoption in India at Smart Bharat Expo.",
+      image: "images/expo/smartbharat-2024.jpeg",
+      link: "https://www.linkedin.com/in/your-profile"
+    },
+    {
+        title: "Student Development Program - Engineering Colleges",
+        description: "Delivered comprehensive development programs focusing on emerging technologies and practical skill building. Conducted workshops and seminars across multiple engineering institutions, improving student engagement and technical competency.",
+        technologies: ["Public Speaking", "Technology Training", "Skill Building", "Mentoring", "Program Design"],
+        image: "images/Speaker/Hubbli_engineering_clg_IOT.png",
+        audience: "Engineering Students",
+        reach: "200+ Students"
+    },
+    {
+        title: "Deep Learning Workshop - Engineering Colleges  ",
+        description: "Conducted hands-on IoT workshops for engineering students, covering sensor integration, data collection, and real-world applications. Led interactive sessions with practical demonstrations and project-based learning.",
+        technologies: ["IoT", "Sensors", "Workshop Facilitation", "Arduino", "Hands-on Training"],
+        image: "images/Speaker/bng_ftp_mani_speak.jpeg",
+        audience: "Technical Students",
+        reach: "150+ Participants"
+    }
+  ];
+  
+  function loadAllEvents() {
+    const container = document.getElementById("events-container");
+    allEvents.forEach(ev => {
+      const card = document.createElement("div");
+      card.classList.add("event-card");
+  
+      card.innerHTML = `
+        <img src="${ev.image}" alt="${ev.title}">
+        <div class="event-card-content">
+          <h3>${ev.title}</h3>
+          <p>${ev.description}</p>
+          <a href="${ev.link}" target="_blank">View on LinkedIn</a>
+        </div>
+      `;
+      container.appendChild(card);
+    });
+  }
+  
+  document.addEventListener("DOMContentLoaded", loadAllEvents);
+  
+
+  
