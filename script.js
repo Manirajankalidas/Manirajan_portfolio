@@ -522,6 +522,91 @@ const experienceData = {
                 technologies: ["Industrial Sensors", "Real-world Applications", "Standards Compliance", "Reliability Testing", "Quality Assurance"]
             }
         ]
+    },
+    lscontent: {
+        title: "Content Creator & Speaker",
+        hasCustomLayout: true,
+        sections: {
+            speaker: {
+                title: "Speaker Events",
+                items: [
+                    {
+                        name: "Deep Learning Workshop - Engineering Colleges  ",
+                        description: "Conducted hands-on IoT workshops for engineering students, covering sensor integration, data collection, and real-world applications. Led interactive sessions with practical demonstrations and project-based learning.",
+                        technologies: ["IoT", "Sensors", "Workshop Facilitation", "Arduino", "Hands-on Training"],
+                        image: "images/Speaker/bng_ftp_mani_speak.jpeg",
+                        audience: "Technical Students",
+                        reach: "150+ Participants"
+                    }
+                ]
+            },
+            contentCreator: {
+                title: "Content Creator",
+                items: [
+                    {
+                        name: "AI & Deep Learning Training Content",
+                        description: "Developed comprehensive training materials covering AI fundamentals, deep learning concepts, and practical implementation strategies. Created engaging content with real-world examples and hands-on exercises.",
+                        technologies: ["AI/ML", "Deep Learning", "Training Materials", "Educational Content", "Technical Writing"]
+                    },
+                    {
+                        name: "IoT Workshop Content Development",
+                        description: "Created hands-on IoT workshop materials covering sensor integration, data collection, and real-world applications. Developed curriculum for 100+ students across multiple colleges.",
+                        technologies: ["IoT", "Sensors", "Curriculum Design", "Arduino", "Educational Content"]
+                    },
+                    {
+                        name: " Python Training Content",
+                        description: "Created educational content, tutorials, and documentation for various technical topics and emerging technologies. Published content reached 1000+ learners.",
+                        technologies: ["Content Creation", "Documentation", "Technical Writing", "Tutorial Development", "Knowledge Sharing"]
+                    }
+                ]
+            }
+            
+        }
+    },
+    lsspeaker: {
+        title: "Content Creator & Speaker",
+        hasCustomLayout: true,
+        sections: {
+            speaker: {
+                title: "Speaker Events",
+                items: [
+                    {
+                        name: "Student Development Program - Engineering Colleges",
+                        description: "Delivered comprehensive development programs focusing on emerging technologies and practical skill building. Conducted workshops and seminars across multiple engineering institutions, improving student engagement and technical competency.",
+                        technologies: ["Public Speaking", "Technology Training", "Skill Building", "Mentoring", "Program Design"],
+                        image: "images/Speaker/Hubbli_engineering_clg_IOT.png",
+                        audience: "Engineering Students",
+                        reach: "200+ Students"
+                    }
+                ]
+            }
+            
+        }
+    },
+    lsexpo: {
+        title: "Expo - Experience",
+        items: [
+            {
+                name: "SmartBharat Expo 2024",
+                description: "Represented Client Product at SmartBharat Expo 2024, demonstrating innovative products and engaging with industry professionals and potential clients. Generated significant business leads and partnerships.",
+                technologies: [],
+                image: "images/expo/smartbharat-2024.jpeg",
+                linkedinPost: {
+                    url: "https://www.linkedin.com/posts/manirajan-k_smartbharat-indiaelectronicsweek-iew-activity-7160255182298058752-CQ-B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD4f9DgBC2pATSwQGsMaKS8IQhTAPBf7mvY",
+                    text: "View LinkedIn Post"
+                }
+            },
+            {
+                name: "Electronica India & Productronica India 2023",
+                description: "Participated in major electronics and production technology exhibitions, showcasing innovative solutions and building industry connections. Represented company at international level.",
+                technologies: [],
+                image: "images/expo/electronica-india-2023_2.jpeg",
+                linkedinPost: {
+                    url: "https://www.linkedin.com/posts/manirajan-k_electronicaindia2023-lasercuttingmachine-activity-7108036713612013568-Kbia?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD4f9DgBC2pATSwQGsMaKS8IQhTAPBf7mvY",
+                    text: "View LinkedIn Post"
+                }
+            }
+        ]
     }
 };
 
