@@ -524,19 +524,21 @@ const experienceData = {
         ]
     },
     lscontent: {
-        title: "Content Creator & Speaker",
+        title: "Content Creator",
         hasCustomLayout: true,
         sections: {
             speaker: {
-                title: "Speaker Events",
+                title: "Articles Blogs",
                 items: [
                     {
-                        name: "Deep Learning Workshop - Engineering Colleges  ",
-                        description: "Conducted hands-on IoT workshops for engineering students, covering sensor integration, data collection, and real-world applications. Led interactive sessions with practical demonstrations and project-based learning.",
-                        technologies: ["IoT", "Sensors", "Workshop Facilitation", "Arduino", "Hands-on Training"],
-                        image: "images/Speaker/bng_ftp_mani_speak.jpeg",
-                        audience: "Technical Students",
-                        reach: "150+ Participants"
+                        name: "Exploring the magic of Neural Networks",
+                        description: "Explains the difference between traditional programming and machine learning through a Celsius-to-Fahrenheit example, showing how neural networks learn patterns from data and scale to solve complex problems.",
+                        technologies: [],
+                        image: "images/expo/linked in blog.png",
+                        linkedinPost: {
+                            url: "https://www.linkedin.com/posts/manirajan-k_deeplearning-machinelearning-ai-activity-7120714289190973440-YEb0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD4f9DgBC2pATSwQGsMaKS8IQhTAPBf7mvY",
+                            text: "View LinkedIn Post"
+                        }
                     }
                 ]
             },
@@ -544,19 +546,14 @@ const experienceData = {
                 title: "Content Creator",
                 items: [
                     {
-                        name: "AI & Deep Learning Training Content",
-                        description: "Developed comprehensive training materials covering AI fundamentals, deep learning concepts, and practical implementation strategies. Created engaging content with real-world examples and hands-on exercises.",
-                        technologies: ["AI/ML", "Deep Learning", "Training Materials", "Educational Content", "Technical Writing"]
-                    },
-                    {
-                        name: "IoT Workshop Content Development",
-                        description: "Created hands-on IoT workshop materials covering sensor integration, data collection, and real-world applications. Developed curriculum for 100+ students across multiple colleges.",
-                        technologies: ["IoT", "Sensors", "Curriculum Design", "Arduino", "Educational Content"]
-                    },
-                    {
-                        name: " Python Training Content",
-                        description: "Created educational content, tutorials, and documentation for various technical topics and emerging technologies. Published content reached 1000+ learners.",
-                        technologies: ["Content Creation", "Documentation", "Technical Writing", "Tutorial Development", "Knowledge Sharing"]
+                        name: "Content Contributions to the Least Squares Community",
+                        description: "Least Squares provides valuable content through posts, blogs, and bootcamp sessions, where I contributed by sharing my learnings in a few posts.",
+                        technologies: [],
+                        image: "images/expo/ls_contents.png",
+                        linkedinPost: {
+                            url: "https://www.linkedin.com/company/least-squares/posts/?feedView=images&viewAsMember=true",
+                            text: "View LinkedIn Post"
+                        }
                     }
                 ]
             }
@@ -568,15 +565,19 @@ const experienceData = {
         hasCustomLayout: true,
         sections: {
             speaker: {
-                title: "Speaker Events",
+                title: "",
                 items: [
                     {
-                        name: "Student Development Program - Engineering Colleges",
-                        description: "Delivered comprehensive development programs focusing on emerging technologies and practical skill building. Conducted workshops and seminars across multiple engineering institutions, improving student engagement and technical competency.",
-                        technologies: ["Public Speaking", "Technology Training", "Skill Building", "Mentoring", "Program Design"],
-                        image: "images/Speaker/Hubbli_engineering_clg_IOT.png",
-                        audience: "Engineering Students",
-                        reach: "200+ Students"
+                        name: "Least Squares – Online Python Bootcamp 2023",
+                        description: "Conducted an **online Python bootcamp** with the Least Squares community in 2023, delivering the **second session** of a 3-day program.Covered **basic hardware applications in industries, Python fundamentals**, and shared practical tips for students.",
+                        technologies: [],
+                        image: "images/expo/ls_python_bootcamp.png",
+                        audience: "Students",
+                        reach: "30+ Students",
+                        youtubePost: {
+                            url: "https://youtu.be/PcgoCKbs6pc?si=InPKWCyR_L9Fmrhe",
+                            text: "View Youtube"
+                        }
                     }
                 ]
             }
@@ -587,22 +588,22 @@ const experienceData = {
         title: "Expo - Experience",
         items: [
             {
-                name: "SmartBharat Expo 2024",
-                description: "Represented Client Product at SmartBharat Expo 2024, demonstrating innovative products and engaging with industry professionals and potential clients. Generated significant business leads and partnerships.",
+                name: "Keras Community Day 2023",
+                description: "Attended Keras Community Day 2023 organized by TFUG Bangalore, gaining insights on Generative AI, LLMs, and GANs through expert talks, panel discussions, and real-world case studies. Networked with industry professionals and explored innovative AI startups and live demos.",
                 technologies: [],
-                image: "images/expo/smartbharat-2024.jpeg",
+                image: "images/expo/keras_event.jpeg",
                 linkedinPost: {
-                    url: "https://www.linkedin.com/posts/manirajan-k_smartbharat-indiaelectronicsweek-iew-activity-7160255182298058752-CQ-B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD4f9DgBC2pATSwQGsMaKS8IQhTAPBf7mvY",
+                    url: "https://www.linkedin.com/posts/manirajan-k_kerascommunityday2023-ai-generativeai-activity-7111756992737660928-r5-R?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD4f9DgBC2pATSwQGsMaKS8IQhTAPBf7mvY",
                     text: "View LinkedIn Post"
                 }
             },
             {
-                name: "Electronica India & Productronica India 2023",
-                description: "Participated in major electronics and production technology exhibitions, showcasing innovative solutions and building industry connections. Represented company at international level.",
+                name: " Atlassian GenAI event 2024",
+                description: "Attended the Atlassian GenAI event in Coimbatore, gaining insights on GenAI in business, LLMs, RAG, and AI-powered helpdesks from industry experts.Explored real-world applications, open-source models, and best practices for AI adoption and data security.",
                 technologies: [],
-                image: "images/expo/electronica-india-2023_2.jpeg",
+                image: "images/expo/Atlassian_event.jpeg",
                 linkedinPost: {
-                    url: "https://www.linkedin.com/posts/manirajan-k_electronicaindia2023-lasercuttingmachine-activity-7108036713612013568-Kbia?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD4f9DgBC2pATSwQGsMaKS8IQhTAPBf7mvY",
+                    url: "https://www.linkedin.com/posts/manirajan-k_cbe-gen-ai-event-activity-7213375285017161728-kiIS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD4f9DgBC2pATSwQGsMaKS8IQhTAPBf7mvY",
                     text: "View LinkedIn Post"
                 }
             }
@@ -665,6 +666,14 @@ window.toggleDetails = function(category) {
                                 </a>
                             </div>
                         ` : ''}
+                        ${item.youtubePost ? `
+                            <div class="youtube-post-container">
+                                <a href="${item.youtubePost.url}" target="_blank" class="youtube-post-link">
+                                    <i class="fab fa-youtube"></i> ${item.youtubePost.text}
+                                </a>
+                            </div>
+                        ` : ''}
+                        
                     </div>
                 `;
             });
@@ -774,7 +783,25 @@ const allEvents = [
         image: "images/Speaker/bng_ftp_mani_speak.jpeg",
         audience: "Technical Students",
         reach: "150+ Participants"
-    }
+    },
+    {
+        title: "Keras Community Day 2023",
+        description: "Attended Keras Community Day 2023 organized by TFUG Bangalore, gaining insights on Generative AI, LLMs, and GANs through expert talks, panel discussions, and real-world case studies. Networked with industry professionals and explored innovative AI startups and live demos.",
+        image: "images/expo/keras_event.jpeg",
+        link: "https://www.linkedin.com/posts/manirajan-k_kerascommunityday2023-ai-generativeai-activity-7111756992737660928-r5-R?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD4f9DgBC2pATSwQGsMaKS8IQhTAPBf7mvY"
+      },
+      {
+          title: "Atlassian GenAI event 2024",
+          description: "Attended the Atlassian GenAI event in Coimbatore, gaining insights on GenAI in business, LLMs, RAG, and AI-powered helpdesks from industry experts.Explored real-world applications, open-source models, and best practices for AI adoption and data security.",
+          image: "images/expo/Atlassian_event.jpeg",
+          link: "https://www.linkedin.com/posts/manirajan-k_cbe-gen-ai-event-activity-7213375285017161728-kiIS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD4f9DgBC2pATSwQGsMaKS8IQhTAPBf7mvY"
+        },
+        {
+            title: "Least Squares – Online Python Bootcamp 2023",
+            description: "Conducted an **online Python bootcamp** with the Least Squares community in 2023, delivering the **second session** of a 3-day program.Covered **basic hardware applications in industries, Python fundamentals**, and shared practical tips for students.",
+            image: "images/expo/ls_python_bootcamp.png",
+            link: "https://youtu.be/PcgoCKbs6pc?si=InPKWCyR_L9Fmrhe"
+          }
   ];
   
   function loadAllEvents() {
