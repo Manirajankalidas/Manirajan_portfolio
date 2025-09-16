@@ -608,7 +608,171 @@ const experienceData = {
                 }
             }
         ]
+    },
+    BUSIH: {
+        title: "SIH - Experience",
+        items: [
+            {
+                name: "Smart India Hackathon (SIH) - 2022",
+                description: "Worked with my team on the problem statement 'Ministry of Port and Shipping' and developed a project titled Air Quality Index for Major Ports. We conducted in-depth research on the issue and presented our solution collaboratively.",
+                technologies: [],
+                image: "images/BU/shi20222.png",
+                linkedinPost: {
+                    url: "Assert/VAAYU.pdf",
+                    text: "View LinkedIn Post"
+                }
+            },
+            
+        ]
+    },
+    BUProject: {
+        title: "Project-BU",
+        items: [
+            {
+                name: "SMART ATTENDANCE SYSTEM",
+                description: "Smart Attendance System using Face Recognition Techniques for Real-Time Attendance Management",
+                technologies: [],
+                image: "images/BU/smart_attedance_system.jpeg",
+                linkedinPost: {
+                    url: "https://www.linkedin.com/pulse/smart-attendance-system-using-face-recognition-mr-statistician/?trackingId=HgddFpbKSMS3bcG42T06sQ%3D%3D",
+                    text: "View LinkedIn Post"
+                }
+            },
+            
+        ]
+    },
+    BUEDA: {
+        title: "Project-EDA",
+        items: [
+            {
+                name: "Exploratory Data Analysis ",
+                description: "Explored various online dataset repositories such as Kaggle, Data.gov.in, Machine Learning Mastery, and default datasets from industry frameworks like TensorFlow and PyTorch. Performed exploratory data analysis (EDA) on datasets from different domains using Python and R programming. Created detailed analysis reports and interactive dashboards to visualize insights.",
+                technologies: [],
+            },
+            
+        ]
+    },
+    QTAPDeply: {
+        title: "Product Deployment",
+        items: [
+            {
+                name: "Client-Site Project Deployment and Handover",
+                description: "Visited 10+ industrial sites across India for project development, requirement gathering, project kick-off, and closure. Actively collaborated with clients to understand business needs and coordinated with internal teams to ensure all technical and operational prerequisites were in place (e.g., IT permissions, network access, hardware setup). Performed on-site software testing, live demonstrations, and successful handover of AI-based solutions to clients.",
+                technologies: ["Client Interaction", "Project Coordination", "On-site Testing", "Deployment Planning"],
+            },
+            {
+                name: "Requirement Analysis & Internal Alignment",
+                description: "Engaged with clients to capture detailed functional and technical requirements. Coordinated internal resources to fulfill infrastructure and operational needs for smooth project execution, including setting up access credentials, network policies, and deployment checklists.",
+                technologies: ["Requirement Gathering", "Stakeholder Communication", "IT Infrastructure Coordination"],
+            },
+            {
+                name: "Software Testing and Validation at Client Site",
+                description: "Performed real-time validation of deployed applications on client premises. Ensured application performance under live conditions and worked closely with clients during the testing phase to address any critical issues. Conducted handover sessions with proper documentation and support training.",
+                technologies: ["Real-time Testing", "Live Validation", "Troubleshooting", "Client Training"],
+            },
+        ]
+    },
+    QTAPDevelop: {
+        title: "Product Development",
+        items: [
+            {
+                name: "Industrial AI Safety Application Development",
+                description: "Contributed to the development of large-scale AI-based industrial safety applications. Designed and implemented core features for real-time safety monitoring using AI vision systems, supporting industrial compliance and hazard detection.",
+                technologies: ["Python", "Deep Learning", "Computer Vision", "Industrial Safety"],
+            },
+            {
+                name: "Alert System Integration",
+                description: "Integrated various types of alert mechanisms (audio, visual, notifications) into safety applications to provide real-time feedback and incident warnings. Alerts were customized based on severity and use-case scenarios.",
+                technologies: ["Notification Systems", "Custom Alerts", "IoT Integration"],
+            },
+            {
+                name: "Cloud Dashboard and DB Integration",
+                description: "Developed cloud-based dashboards for monitoring AI system outputs and historical data analysis. Integrated MongoDB for structured storage of event logs, metrics, and configuration data.",
+                technologies: ["MongoDB", "Cloud Dashboard", "Data Visualization"],
+            },
+            {
+                name: "Client-Specific Custom Development",
+                description: "Worked closely with clients to develop customized features and modules tailored to their operational needs and safety protocols.",
+                technologies: ["Custom Software Development", "Agile", "Requirement Engineering"],
+            },
+        ]
+    },
+    QTAPPipeline: {
+        title: "Model Pipeline",
+        items: [
+            {
+                name: "End-to-End ML Pipeline",
+                description: "Built full machine learning pipelines involving data collection, preprocessing, annotation, augmentation, model training, fine-tuning, and deployment. Managed scalable workflows for large datasets.",
+                technologies: ["Python", "Pandas", "NumPy", "OpenCV", "Label Studio"],
+            },
+            {
+                name: "Data Augmentation and Preprocessing",
+                description: "Applied various augmentation techniques to improve model robustness and performance. Handled data cleaning, balancing, normalization, and image transformations.",
+                technologies: ["Albumentations", "TensorFlow Data API", "PyTorch Transforms"],
+            },
+            {
+                name: "Model Training & Hyperparameter Tuning",
+                description: "Trained models using different architectures and tuned hyperparameters to improve accuracy and generalization. Used grid search and manual tuning for optimal results.",
+                technologies: ["PyTorch", "TensorFlow", "Scikit-learn", "WandB"],
+            },
+            {
+                name: "Evaluation & Testing",
+                description: "Performed comprehensive model evaluation using confusion matrix, precision-recall metrics, and real-world test cases to ensure model readiness for deployment.",
+                technologies: ["Matplotlib", "Seaborn", "Scikit-learn"],
+            },
+        ]
+    },
+    QTAPHWDeploy: {
+        title: "Hardware Deployment",
+        items: [
+            {
+                name: "Edge AI Deployment on NVIDIA Jetson Devices",
+                description: "Deployed AI solutions on various Jetson platforms (Xavier, Orin NX, Nano). Installed OS, configured environments, and optimized performance for on-device inference.",
+                technologies: ["Jetson Nano", "Jetson Xavier", "Jetson Orin NX", "Ubuntu"],
+            },
+            {
+                name: "ONNX Optimization for Edge Inference",
+                description: "Converted trained models to ONNX format and applied model optimizations to ensure low-latency, high-performance inference on edge devices.",
+                technologies: ["ONNX", "TensorRT", "Model Optimization Toolkit"],
+            },
+            {
+                name: "Monitoring Edge Device Performance",
+                description: "Continuously monitored edge device performance using system profiling and performance analysis tools to ensure system stability and efficiency.",
+                technologies: ["tegrastats", "htop", "Custom Monitoring Scripts"],
+            },
+        ]
+    },
+    QTAPRnD: {
+        title: "Research and Development",
+        items: [
+            {
+                name: "Real-Time Multistream Camera Handling",
+                description: "Worked on handling 50+ real-time camera streams for AI processing. Developed robust, scalable solutions to handle concurrent video inputs for industrial surveillance and monitoring.",
+                technologies: ["OpenCV", "FFmpeg", "GStreamer", "Python"],
+            },
+            {
+                name: "Multimodal Integration Pipeline",
+                description: "Built pipelines for multimodal data integration (video, sensor, alert systems). Ensured seamless data flow and synchronization for real-time decision-making.",
+                technologies: ["Multi-threading", "Multi-processing", "Queue Management"],
+            },
+            {
+                name: "Model Optimization for Deployment",
+                description: "Applied model optimization techniques including quantization, pruning, and TensorRT acceleration for real-time inference under resource constraints.",
+                technologies: ["TensorRT", "ONNX", "Model Quantization", "Pruning"],
+            },
+            {
+                name: "Low-Latency Architecture Design",
+                description: "Designed application architectures focused on reducing latency and improving throughput. Leveraged parallel processing and async design patterns.",
+                technologies: ["Python", "AsyncIO", "Threading", "System Design"],
+            },
+        ]
     }
+    
+    
+    
+    
+    
+
 };
 
 // Function to open modal with detailed content
